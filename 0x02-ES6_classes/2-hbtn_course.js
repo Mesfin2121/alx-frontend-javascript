@@ -1,17 +1,9 @@
 export default class HolbertonCourse {
-
-  //   /**
-  //    * @param {string} name: name of the course
-  //    * @param {number} length: lenght of the course
-  //    * @param {Array<string>} students: names of students
-  //    * @throws {TypeError} if data does not have the expected type
-  //    */
-
   // constructor
   constructor(name, length, students) {
-    this._name = name;
-    this._length = length;
-    this._students = students;
+    this.name = name;
+    this.length = length;
+    this.students = students;
   }
 
   // name getter and setter
